@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Prototype</title>
+    <script src="../releases/touch-2.4.2/sencha-touch-all.js"></script>
+    <link rel="stylesheet" href="../releases/touch-2.4.2/resources/css/sencha-touch.css">
+ <!-- <script type="text/javascript">
+        function onChooseFileEvent (e) {
+
+            var imageContainer = Ext.getCmp('ImageContainer');
+            var image = imageContainer.getAt(1);
+
+            var files = e.target.files; // FileList object
+
+            for (var i = 0, f; f = files[i]; i++)
+            {
+                if (!f.type.match('image.*'))
+                {
+                    continue;
+                }
+
+                var reader = new FileReader();
+
+                reader.onload = (function(theFile)
+                {
+                    return function(e)
+                    {
+                        image.setSrc(e.target.result);
+                    };
+                })(f);
+
+                reader.readAsDataURL(f);
+            }
+
+            e.stopPropagation();
+
+        }
+
+    </script> -->
+    
+	
+	<script type="text/javascript" src="quagga.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+    
+	
+	<script type="text/javascript">
+      /*  if (!Ext.browser.is.WebKit) {
+            alert("The current browser is unsupported.\n\nSupported browsers:\n" +
+                //"Google Chrome\n" +
+                //"Apple Safari\n" +
+                "Mobile Safari (iOS)\n" +
+                "Android Browser\n" +
+                "BlackBerry Browser"
+            );
+        }
+    */</script>
+</head>
+<body>
+</body>
+</html>
